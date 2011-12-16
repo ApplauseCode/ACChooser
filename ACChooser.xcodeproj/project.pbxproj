@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3AE137149C083400562192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3AE136149C083400562192 /* UIKit.framework */; };
+		CE3AE139149C083400562192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3AE138149C083400562192 /* Foundation.framework */; };
+		CE3AE13B149C083400562192 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3AE13A149C083400562192 /* CoreGraphics.framework */; };
+		CE3AE141149C083400562192 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3AE13F149C083400562192 /* InfoPlist.strings */; };
+		CE3AE143149C083400562192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE142149C083400562192 /* main.m */; };
+		CE3AE147149C083400562192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE146149C083400562192 /* AppDelegate.m */; };
+		CE3AE14A149C083400562192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE149149C083400562192 /* ViewController.m */; };
+		CE3AE176149C08B600562192 /* ACChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE169149C08B600562192 /* ACChooserViewController.m */; };
+		CE3AE177149C08B600562192 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3AE16A149C08B600562192 /* ViewController.xib */; };
+		CE3AE17C149C09A400562192 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3AE17B149C09A400562192 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3AE132149C083400562192 /* ACChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3AE136149C083400562192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3AE138149C083400562192 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3AE13A149C083400562192 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3AE13E149C083400562192 /* ACChooser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACChooser-Info.plist"; sourceTree = "<group>"; };
+		CE3AE140149C083400562192 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE3AE142149C083400562192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3AE144149C083400562192 /* ACChooser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACChooser-Prefix.pch"; sourceTree = "<group>"; };
+		CE3AE145149C083400562192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3AE146149C083400562192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3AE148149C083400562192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE3AE149149C083400562192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3AE168149C08B600562192 /* ACChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACChooserViewController.h; sourceTree = SOURCE_ROOT; };
+		CE3AE169149C08B600562192 /* ACChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACChooserViewController.m; sourceTree = SOURCE_ROOT; };
+		CE3AE16A149C08B600562192 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		CE3AE17B149C09A400562192 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3AE12F149C083400562192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3AE17C149C09A400562192 /* QuartzCore.framework in Frameworks */,
+				CE3AE137149C083400562192 /* UIKit.framework in Frameworks */,
+				CE3AE139149C083400562192 /* Foundation.framework in Frameworks */,
+				CE3AE13B149C083400562192 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3AE127149C083400562192 = {
+			isa = PBXGroup;
+			children = (
+				CE3AE13C149C083400562192 /* ACChooser */,
+				CE3AE135149C083400562192 /* Frameworks */,
+				CE3AE133149C083400562192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3AE133149C083400562192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3AE132149C083400562192 /* ACChooser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3AE135149C083400562192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3AE17B149C09A400562192 /* QuartzCore.framework */,
+				CE3AE136149C083400562192 /* UIKit.framework */,
+				CE3AE138149C083400562192 /* Foundation.framework */,
+				CE3AE13A149C083400562192 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3AE13C149C083400562192 /* ACChooser */ = {
+			isa = PBXGroup;
+			children = (
+				CE3AE145149C083400562192 /* AppDelegate.h */,
+				CE3AE146149C083400562192 /* AppDelegate.m */,
+				CE3AE168149C08B600562192 /* ACChooserViewController.h */,
+				CE3AE169149C08B600562192 /* ACChooserViewController.m */,
+				CE3AE16A149C08B600562192 /* ViewController.xib */,
+				CE3AE148149C083400562192 /* ViewController.h */,
+				CE3AE149149C083400562192 /* ViewController.m */,
+				CE3AE13D149C083400562192 /* Supporting Files */,
+			);
+			path = ACChooser;
+			sourceTree = "<group>";
+		};
+		CE3AE13D149C083400562192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3AE13E149C083400562192 /* ACChooser-Info.plist */,
+				CE3AE13F149C083400562192 /* InfoPlist.strings */,
+				CE3AE142149C083400562192 /* main.m */,
+				CE3AE144149C083400562192 /* ACChooser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3AE131149C083400562192 /* ACChooser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3AE150149C083400562192 /* Build configuration list for PBXNativeTarget "ACChooser" */;
+			buildPhases = (
+				CE3AE12E149C083400562192 /* Sources */,
+				CE3AE12F149C083400562192 /* Frameworks */,
+				CE3AE130149C083400562192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACChooser;
+			productName = ACChooser;
+			productReference = CE3AE132149C083400562192 /* ACChooser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3AE129149C083400562192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE3AE12C149C083400562192 /* Build configuration list for PBXProject "ACChooser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3AE127149C083400562192;
+			productRefGroup = CE3AE133149C083400562192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3AE131149C083400562192 /* ACChooser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3AE130149C083400562192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3AE141149C083400562192 /* InfoPlist.strings in Resources */,
+				CE3AE177149C08B600562192 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3AE12E149C083400562192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3AE143149C083400562192 /* main.m in Sources */,
+				CE3AE147149C083400562192 /* AppDelegate.m in Sources */,
+				CE3AE14A149C083400562192 /* ViewController.m in Sources */,
+				CE3AE176149C08B600562192 /* ACChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3AE13F149C083400562192 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3AE140149C083400562192 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3AE14E149C083400562192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3AE14F149C083400562192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3AE151149C083400562192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACChooser/ACChooser-Prefix.pch";
+				INFOPLIST_FILE = "ACChooser/ACChooser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE3AE152149C083400562192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACChooser/ACChooser-Prefix.pch";
+				INFOPLIST_FILE = "ACChooser/ACChooser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3AE12C149C083400562192 /* Build configuration list for PBXProject "ACChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3AE14E149C083400562192 /* Debug */,
+				CE3AE14F149C083400562192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3AE150149C083400562192 /* Build configuration list for PBXNativeTarget "ACChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3AE151149C083400562192 /* Debug */,
+				CE3AE152149C083400562192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3AE129149C083400562192 /* Project object */;
+}
