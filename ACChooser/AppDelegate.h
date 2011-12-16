@@ -3,7 +3,7 @@
 //  ACChooser
 //
 //  Created by Jeffrey Rosenbluth on 12/16/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Applause Code. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
